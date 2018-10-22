@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+
+        <section class="score-panel">
+        	<div class="statistics">
+				<ul class="stars">
+					<li><i class="fa fa-star"></i></li>
+					<li><i class="fa fa-star"></i></li>
+					<li><i class="fa fa-star"></i></li>
+				</ul>
+				
+				Moves: <span class="moves">0</span>
+			</div>
+			
+			<div class="timer">
+				<span class="minutes">00</span>:<span class="seconds">00</span>
+			</div>
+			
+			<div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+			
+        </section>
+
+        <ul class="deck">
+        </ul>
+
+		<div class="modal">
+			<div class="modal-content">
+				<i class="fa fa-trophy"></i>
+				<h3>Great job!</h3>
+				<p>Seems like dementia hasn't kicked in yet.</p>
+				<p>It took you <span class="final-minutes">00</span>:<span class="final-seconds">00</span> to earn</p>
+				</p><ul class="final-stars"></ul> star(s) in <span class="final-moves">0</span> moves.</p>
+				<button class="restart">Play again</button>
+			</div>
+		</div>
+    </div>
+
+    <script src="js/app.js"></script>
+	
+</body>
+</html>
