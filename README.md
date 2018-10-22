@@ -3,7 +3,7 @@ Memory game is a browser-based card matching game.
 
 ## What the Game Looks Like
 
-![alt text](insert link to image here)
+![alt text](https://github.com/mtodtling/fend-project-memory-game/blob/master/img/memorygame.png)
 
 ## How the Game Works
 The game board consists of sixteen "cards" arranged in a grid. The deck is made up of eight different pairs of cards, each with different symbols on one side. The cards are arranged randomly on the grid with the symbol face down. The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match!
