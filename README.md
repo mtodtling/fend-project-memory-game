@@ -17,5 +17,8 @@ In each turn:
 The game ends once all cards have been correctly matched.
 
 ## How to Run the Game
+1. Play the game in your browser by following this link: https://mtodtling.github.io/fend-project-memory-game/.
+
+Alternatively,
 1. Download or clone the repository.
 2. Open index.html file to view the project in your browser.
